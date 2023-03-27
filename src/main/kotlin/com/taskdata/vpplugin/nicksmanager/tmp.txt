@@ -1,0 +1,28 @@
+Elements to processed: 4
+Target: Original, Source: B, DryRun: true
+ Process o (source: B, target: Original)
+ o: o <== B
+ o: B <== o
+  Process attribute (source: B, target: Original)
+  attribute: attribute <== attribute
+  attribute: attribute <== attribute
+ Process Package O (source: B, target: Original)
+worker: attribute
+worker: o
+ Package O: Package O <== Package B
+ Package O: Package B <== Package O
+  Process o (source: B, target: Original)
+  already processed
+  Process Component (source: B, target: Original)
+  Component: Component <== Component
+  Component: Component <== Component
+ Process tp O (source: B, target: Original)
+worker: Component
+worker: Package O
+ tp O: tp O <== tb B
+ tp O: tb B <== tp O
+  Process Package O (source: B, target: Original)
+  already processed
+ Process Component (source: B, target: Original)
+ already processed
+worker: tp O

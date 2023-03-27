@@ -1,0 +1,65 @@
+<plugin
+        id="com.taskdata.vpplugin.nicksmanager"
+        name="Nicknames Manager"
+        description="Nicknames Manager"
+        provider="Leonid Vygovskiy"
+        class="com.taskdata.vpplugin.nicksmanager.NicksManagerPlugin">
+
+    <runtime/>
+
+    <actionSets>
+
+        <actionSet id="com.taskdata.vpplugin.nicksmanager.actions">
+            <toolbar
+                    id="com.taskdata.vpplugin.nicksmanager.actions.toolbar1"
+                    orientation="north"
+                    index="last"/>
+
+            <action
+                    id="com.taskdata.vpplugin.nicksmanager.SwapNicknamesAction"
+                    actionType="generalAction"
+                    label="Swap Nicknames"
+                    tooltip="Swap nicknames. For example default to english"
+                    style="normal"
+                    icon="icons/switch.png"
+                    toolbarPath="com.taskdata.vpplugin.nicksmanager.actions.toolbar1/#">
+                <actionController class="com.taskdata.vpplugin.nicksmanager.SwapNicknamesActionController"/>
+            </action>
+<!--            <action-->
+<!--                    id="com.taskdata.vpplugin.nicksmanager.actions.AddProjectNicknameAction"-->
+<!--                    actionType="generalAction"-->
+<!--                    label="Add Project's Nickname"-->
+<!--                    tooltip="Add Project's Nickname"-->
+<!--                    style="normal"-->
+<!--                    icon="icons/add.png"-->
+<!--                    toolbarPath="com.taskdata.vpplugin.nicksmanager.actions.toolbar1/com.taskdata.vpplugin.nicksmanager.actions.ListProjectNicknamesAction">-->
+<!--                <actionController class="com.taskdata.vpplugin.nicksmanager.actions.AddProjectNicknameActionController"/>-->
+<!--            </action>-->
+<!--            <action-->
+<!--                    id="com.taskdata.vpplugin.nicksmanager.actions.SwitchToNextNicknameAction"-->
+<!--                    actionType="generalAction"-->
+<!--                    label="Switch to next nickname"-->
+<!--                    tooltip="Switch to next nickname"-->
+<!--                    style="normal"-->
+<!--                    icon="icons/switch.png"-->
+<!--                    toolbarPath="com.taskdata.vpplugin.nicksmanager.actions.toolbar1/com.taskdata.vpplugin.nicksmanager.actions.AddProjectNicknameAction">-->
+<!--                <actionController class="com.taskdata.vpplugin.nicksmanager.actions.SwitchToNextNicknameActionController"/>-->
+<!--            </action>-->
+
+        </actionSet>
+
+<!--        <contextSensitiveActionSet id="com.taskdata.vpplugin.nicksmanager.contextactions">-->
+<!--            <contextTypes all="true">-->
+<!--            </contextTypes>-->
+<!--            <action-->
+<!--                    id="com.taskdata.vpplugin.nicksmanager.actions.ShowModelElementNamesAction"-->
+<!--                    label="Show Model Element Names"-->
+<!--                    style="normal"-->
+<!--                    menuPath="#">-->
+<!--                <actionController class="com.taskdata.vpplugin.nicksmanager.actions.ShowModelElementNamesActionController"/>-->
+<!--            </action>-->
+
+<!--        </contextSensitiveActionSet>-->
+
+    </actionSets>
+</plugin>
