@@ -3,27 +3,27 @@
         name="Nicknames Manager"
         description="Nicknames Manager"
         provider="Leonid Vygovskiy"
-        class="com.taskdata.vpplugin.nicksmanager.NicksManagerPlugin">
+        class="com.vygovskiy.vpplugin.nicksmanager.NicksManagerPlugin">
 
     <runtime/>
 
     <actionSets>
 
-        <actionSet id="com.taskdata.vpplugin.nicksmanager.actions">
+        <actionSet id="com.vygovskiy.vpplugin.nicksmanager.actions">
             <toolbar
-                    id="com.taskdata.vpplugin.nicksmanager.actions.toolbar1"
+                    id="com.vygovskiy.vpplugin.nicksmanager.actions.toolbar1"
                     orientation="north"
                     index="last"/>
 
             <action
-                    id="com.taskdata.vpplugin.nicksmanager.SwapNicknamesAction"
+                    id="com.vygovskiy.vpplugin.nicksmanager.SwapNicknamesAction"
                     actionType="generalAction"
                     label="Swap Nicknames"
                     tooltip="Swap nicknames. For example default to english"
                     style="normal"
                     icon="icons/switch.png"
-                    toolbarPath="com.taskdata.vpplugin.nicksmanager.actions.toolbar1/#">
-                <actionController class="com.taskdata.vpplugin.nicksmanager.SwapNicknamesActionController"/>
+                    toolbarPath="com.vygovskiy.vpplugin.nicksmanager.actions.toolbar1/#">
+                <actionController class="com.vygovskiy.vpplugin.nicksmanager.SwapNicknamesActionController"/>
             </action>
 <!--            <action-->
 <!--                    id="com.taskdata.vpplugin.nicksmanager.actions.AddProjectNicknameAction"-->

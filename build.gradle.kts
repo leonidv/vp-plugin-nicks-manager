@@ -10,8 +10,8 @@ val vpPluginsDir = "${userHome}\\AppData\\Roaming\\VisualParadigm\\plugins"
 val vpPluginName = project.name
 val vpPluginDir = "$vpPluginsDir/$vpPluginName"
 
-group = "com.taskdata.vpplugins"
-version = "1.0-SNAPSHOT"
+group = "com.vygovskiy.vpplugins"
+version = "1.0"
 
 
 repositories {

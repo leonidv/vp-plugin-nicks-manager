@@ -1,4 +1,4 @@
-package com.taskdata.vpplugin.nicksmanager
+package com.vygovskiy.vpplugin.nicksmanager
 
 import com.vp.plugin.diagram.IDiagramElement
 import com.vp.plugin.model.IModelElement
