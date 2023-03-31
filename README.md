@@ -5,7 +5,9 @@ we write a name in the incorrect model language. For example, you think that wor
 Original namespace, but really it was another. Manual transfer is boring and requires many-many mouse operations. 
 This plugin can fix error in 3 clicks.
 
-![](images/screenshot.png)
+<p align="center">
+<img src="images/screenshot.png"/>
+</p>
 
 ## How to install
 1. Download a release with the plugin
