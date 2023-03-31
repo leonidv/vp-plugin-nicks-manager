@@ -5,7 +5,7 @@ we write a name in the incorrect model language. For example, you think that wor
 Original namespace, but really it was another. Manual transfer is boring and requires many-many mouse operations. 
 This plugin can fix error in 3 clicks.
 
-![images/screenshot.png]
+![](images/screenshot.png)
 
 ## How to install
 1. Download a release with the plugin
@@ -14,7 +14,7 @@ This plugin can fix error in 3 clicks.
 
 ## How to use
 1. Open diagram: Tab "Plugin, button Swap Nicknames"
-   ![images/button.png]
+   ![](images/button.png)
 2. In Swap nicknames dialog select nicknames, which you want to swap. Click "Do it!" and
 take a coffee - operation is really long. If you want, you can click "Stop". Process will 
 be stopped, but not immediately.
